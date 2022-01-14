@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  background-color: red;
+}
+
+body {
+  margin:0;
+  background-color: red;
+}
+
+
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 7500px /* Used in this example to enable scrolling */
+    background-color: lime;
+  }
+
+  ul {
+    display: flex;
+  }
+
+h2 {
+  background-color: royalblue;
+  align-items: center;
+}
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  a {
+    margin: 7px;
+    color: white;
+    width: 33vw
+  }
+
+#logo_header img { 
+    width: 100vw;
+    height: 75vh;
+   }
+ 
+
+img {
+  width: 45vw;
+  margin: 5px;
+ }
+
